@@ -1,4 +1,5 @@
 import { Box } from "lucide-react"
+import Link from 'next/link'
 
 export default function Component() {
   return (
@@ -12,16 +13,18 @@ export default function Component() {
         <p className="text-gray-600">
           Track your digital device costs daily and manage their lifecycle efficiently
         </p>
-        <button className="bg-[#8B5CF6] text-white px-6 py-2 rounded-md hover:bg-[#7C3AED] transition-colors">
-          Try TimeValue Now
-        </button>
+        <Link href="https://ysb.chatgptnb.com">
+          <button className="bg-[#8B5CF6] text-white px-6 py-2 rounded-md hover:bg-[#7C3AED] transition-colors">
+            Try TimeValue Now
+          </button>
+        </Link>
       </div>
 
       {/* Screenshot */}
       <div className="bg-gray-100 rounded-lg p-4">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screely-1731319506567-4OBsH1QaNkbm66OfknzRDAUm8jy8dR.png"
-          alt="TimeValue Dashboard"
+         src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screely-1731322967973-Lq50kueC4LDHtvV470medG0mteJKVP.png"
+            alt="TimeValue Dashboard"
           width={1200}
           height={675}
           className="rounded-lg shadow-lg w-full"
@@ -87,9 +90,11 @@ export default function Component() {
         <p className="text-gray-600">
           Join others in making smarter device purchasing decisions
         </p>
-        <button className="bg-[#8B5CF6] text-white px-6 py-2 rounded-md hover:bg-[#7C3AED] transition-colors">
-          Launch TimeValue
-        </button>
+        <Link href="https://ysb.chatgptnb.com">
+          <button className="bg-[#8B5CF6] text-white px-6 py-2 rounded-md hover:bg-[#7C3AED] transition-colors">
+            Launch TimeValue
+          </button>
+        </Link>
       </div>
     </div>
   )
