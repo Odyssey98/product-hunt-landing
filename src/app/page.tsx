@@ -25,17 +25,32 @@ export default function Component() {
             Make smarter tech decisions by understanding the true daily cost of your devices
           </p>
 
-          <div className="flex gap-4">
-            <button 
-              onClick={() => window.location.href = 'https://ysb.chatgptnb.com/'}
-              className="bg-purple-600 text-white px-8 py-3 rounded-full font-medium hover:bg-purple-700 transform hover:-translate-y-0.5 transition-all shadow-lg hover:shadow-xl">
-              Try TimeValue Free
-            </button>
-            <button 
-              onClick={() => window.location.href = 'https://ysb.chatgptnb.com/'}
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-medium hover:bg-gray-50 border border-purple-200 transform hover:-translate-y-0.5 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2">
-              Learn More <ChevronRight className="w-4 h-4" />
-            </button>
+          <div className="flex flex-col items-center gap-6">
+            <div className="flex gap-4">
+              <button 
+                onClick={() => window.location.href = 'https://ysb.chatgptnb.com/'}
+                className="bg-purple-600 text-white px-8 py-3 rounded-full font-medium hover:bg-purple-700 transform hover:-translate-y-0.5 transition-all shadow-lg hover:shadow-xl">
+                Try TimeValue Free
+              </button>
+              <button 
+                onClick={() => window.location.href = 'https://ysb.chatgptnb.com/'}
+                className="bg-white text-purple-600 px-8 py-3 rounded-full font-medium hover:bg-gray-50 border border-purple-200 transform hover:-translate-y-0.5 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2">
+                Learn More <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+            <a 
+              href="https://www.producthunt.com/posts/device-cost-tracker?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-device&#0045;cost&#0045;tracker" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transform hover:-translate-y-0.5 transition-all">
+              <img 
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=599943&theme=light" 
+                alt="Device Cost Tracker - Transform your iPhone into a $0.91 daily investment | Product Hunt" 
+                width="250" 
+                height="54" 
+                className="shadow-md rounded"
+              />
+            </a>
           </div>
         </div>
 
@@ -51,7 +66,6 @@ export default function Component() {
           </div>
         </div>
       </div>
-
 
       {/* Features Grid */}
       <div className="max-w-6xl mx-auto px-4 py-24 bg-white">
